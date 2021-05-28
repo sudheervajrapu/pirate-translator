@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #333333;
+  --white: #fff;
+  --width-break: 50%;
+}
+
+body {
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+  color: var(--white);
+}
+
+nav {
+  background-color: var(--primary);
+  text-align: center;
+}
+
+.heading {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+main {
+  color: var(--primary);
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+
+textarea {
+  box-sizing: border-box;
+  padding: 1rem;
+  display: block;
+  width: 100%;
+  height: 20vh;
+  margin-top: 2rem;
+  font-size: medium;
+  font-family: "Quicksand", sans-serif;
+}
+
+button {
+  background-color: var(--primary);
+  border-radius: 1rem;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-family: "Press Start 2P", cursive;
+  font-size: large;
+}
+
+#output-text {
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 100%;
+  height: 20vh;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+  overflow: auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primary);
+  text-align: center;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
